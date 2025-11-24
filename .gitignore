@@ -1,5 +1,30 @@
-# Node.js dependencies
-/node_modules/
+# Node modules
+node_modules/
 
-# npm package lock files (optional, depending on your project needs)
-package-lock.json
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*.local
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+
+# Optional: IDE files
+.vscode/
+.idea/
+
+# Optional: If Yarn is not used, you may remove these
+# yarn.lock
+# .yarn/
+# .pnp.cjs
+# .pnp.loader.mjs
