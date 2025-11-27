@@ -1,16 +1,21 @@
 const swaggerJsdoc = require("swagger-jsdoc");
 
 const options = {
-    definition: {
+    definition: { 
         openapi: "3.0.0",
         info: {
             title: "Books API",
             version: "1.0.0",
-            description: "Simple CRUD API with Swagger documentation"
+            description: "Simple CRUD API with Swagger documentation",
+            contact: {
+                name: "code with excellence",
+                url: "codewithexcellence.com",
+                email: "info@email.com"
+            },
         },
         servers: [
             {
-                url: "v1"
+                url: "http://localhost:3000"
             },
             {
                 url: "v2"
